@@ -1,0 +1,4 @@
+{
+    "prettier.quoteProps": "as-needed",
+    "prettier.withNodeModules": false
+}
