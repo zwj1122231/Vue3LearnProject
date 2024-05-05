@@ -37,11 +37,31 @@ const routes = [
   },{
     path:'/listRendering',
     name:'listRendering',
-    component: () => import(/* webpackChunkName: "conditionalRenderin" */ '../views/ListRenderingDemo.vue')
+    component: () => import(/* webpackChunkName: "listRendering" */ '../views/ListRenderingDemo.vue')
   },{
     path:'/calculation',
     name:'calculation',
-    component: () => import(/* webpackChunkName: "conditionalRenderin" */ '../views/CalculationPropertiesDemo.vue')
+    component: () => import(/* webpackChunkName: "calculation" */ '../views/CalculationPropertiesDemo.vue')
+  },{
+    path:'/lifecycle',
+    name:'lifecycle',
+    component: () => import(/* webpackChunkName: "lifecycle" */ '../views/LifecycleAndTemplateReferencingDemo.vue')
+  },{
+    path:'/listener',
+    name:'listener',
+    component: () => import(/* webpackChunkName: "listener" */ '../views/ListenerDemo.vue')
+  },{
+    path:'/assemblys',
+    name:'assemblys',
+    component: () => import(/* webpackChunkName: "assembly" */ '../views/AssemblyDemo.vue')
+  },{
+    path:'/emits',
+    name:'emits',
+    component: () => import(/* webpackChunkName: "emits" */ '../views/EmitsDemo.vue')
+  },{
+    path:'/slot',
+    name:'slot',
+    component: () => import(/* webpackChunkName: "slot" */ '../views/SlotDemo.vue')
   }
 ]
 

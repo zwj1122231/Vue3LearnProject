@@ -7,8 +7,13 @@
     <router-link to="/eventListen">EventListen</router-link>|
     <router-link to="/formBinding">FormBinding</router-link>|
     <router-link to="/conditionalRenderin">ConditionalRenderin</router-link>|
-    <router-link to="/listRendering">ListRendering</router-link>
-    <router-link to="/calculation">Calculation</router-link>
+    <router-link to="/listRendering">ListRendering</router-link>|
+    <router-link to="/calculation">Calculation</router-link>|
+    <router-link to="/lifecycle">Lifecycle</router-link>|
+    <router-link to="/listener">Listener</router-link>|
+    <router-link to="/assemblys">Assembly</router-link>|
+    <router-link to="/emits">Emits</router-link>|
+    <router-link to="/slot">Slot</router-link>|
   </nav>
   <router-view/>
 </template>
